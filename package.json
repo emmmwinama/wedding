@@ -2,6 +2,7 @@
   "name": "emandmid",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://wedding-emmmwinamas-projects.vercel.app/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
     "@fortawesome/free-brands-svg-icons": "^6.6.0",
@@ -19,7 +20,6 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://emmmwinama.github.io/wedding",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
