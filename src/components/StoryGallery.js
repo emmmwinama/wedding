@@ -1,7 +1,9 @@
 function StoryGallery(props) {
     return (
         <section className="story">
-            Story
+            <div className="container">
+                C
+            </div>
         </section>
     )
 }

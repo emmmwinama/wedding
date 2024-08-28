@@ -40,7 +40,7 @@ function CoupleIntros() {
                             <div className="groom p-2 row">
                                 <div className="groom-text col-lg-8 col-12">
                                     <div className="groom-name">
-                                        <span className="text-lg-end text-sm-center d-block sacramento-regular"
+                                        <span className="text-lg-end text-center d-block sacramento-regular"
                                               style={{fontSize: "30px", fontWeight: 700}}>Emmanuel Mwinama</span>
                                     </div>
                                     <div className="groom-desc text-lg-end text-center">
@@ -66,7 +66,7 @@ function CoupleIntros() {
                             <div className="bride p-2 row d-lg-flex flex-lg-row-reverse flex-sm-row">
                                 <div className="bride-text col-lg-8 col-sm-12">
                                     <div className="bride-name">
-                                    <span className="text-lg-start text-sm-center d-block sacramento-regular"
+                                    <span className="text-lg-start text-center d-block sacramento-regular"
                                           style={{fontSize: "30px", fontWeight: 700}}>Midian Mulungu</span>
                                     </div>
                                     <div className="bride-desc text-lg-start text-center">

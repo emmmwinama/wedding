@@ -14,6 +14,7 @@
 }
 
 .themecolor {
+    background-size: cover;
     background: linear-gradient(to bottom,
     #f8f9fa 0%, /* Very Light Blue at the top */ #d4efff 50%, /* Light Blue in the middle */ #f8f9fa 100% /* Very Light Blue at the bottom */
     ) center;

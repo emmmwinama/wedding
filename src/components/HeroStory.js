@@ -4,11 +4,11 @@ function HeroHome() {
 
     return (
         <div className="heroStory">
-            <div className="container py-5 px-0">
-                <div className="d-flex align-items-center" style={{minHeight: '40vh'}}>
+            <div className="container py-5">
+                <div className="d-flex align-items-center flex-lg-row flex-column" style={{minHeight: '40vh'}}>
                     <div className="" style={{ flex: 1}}>
-                        <div className="heart-shape text-center row d-flex justify-content-center align-items-center">
-                            <img src="/images/story/17.jpeg" alt="" className="col-8" />
+                        <div className="border text-center d-flex justify-content-center justify-content-lg-start align-items-center">
+                            <img src="/images/story/17.jpeg" alt="" className="w-100" />
                         </div>
                     </div>
                     <div className="" style={{flex: 1}} >

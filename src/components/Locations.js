@@ -17,7 +17,7 @@ function Locations(props) {
                         </div>
                     </div>
                     <div className="row d-lg-flex justify-content-lg-center d-sm-inline justify-content-sm-around align-items-center">
-                        <div className="col-sm-8 col-lg-4 p-4 m-3 container-wrapper-min" style={{border: '2px solid #f8f9fa', borderRadius: '5px'}}>
+                        <div className="col-sm-8 col-lg-4 p-4 m-0 mb-3 m-lg-3 container-wrapper-min" style={{border: '2px solid #f8f9fa', borderRadius: '5px'}}>
                             <div className="mb-4" style={{borderBottom: '2px solid #f8f9fa'}}>
                                 <p className="text-uppercase text-center" style={{ fontWeight: 600, fontSize: '20px' }}>Officiation</p>
                             </div>
@@ -42,7 +42,7 @@ function Locations(props) {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-sm-8 col-lg-4 p-4 m-3 container-wrapper-min"
+                        <div className="col-sm-8 col-lg-4 p-4 m-lg-3 m-0 container-wrapper-min"
                              style={{border: '2px solid #f8f9fa', borderRadius: '5px'}}>
                             <div className="mb-4" style={{borderBottom: '2px solid #f8f9fa'}}>
                                 <p className="text-uppercase text-center"
