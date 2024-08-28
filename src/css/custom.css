@@ -131,6 +131,10 @@ section.locations {
     background: rgba(169, 169, 169, 0.10);
 }
 
+.gray-header-text {
+    color: #6b6b6b;
+}
+
 @media (max-width: 991.98px) {
     /* Align nav brand to the left on small screens */
     .navbar-brand {
