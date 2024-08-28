@@ -6,10 +6,9 @@ function NavBar ()  {
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container d-flex justify-content-between">
             {/* Nav Brand */}
-            <NavLink className="navbar-brand mx-auto d-lg-none" to="/"
+            <NavLink className="navbar-brand mx-auto d-lg-none sacramento-regular" to="/"
                      style={{fontSize: "30px", fontWeight: "normal"}}>
-                <div className="txt sacramento-regular">Emmanuel & Midian</div>
-                <span className="text-danger">&#10084;&#65039;</span>
+                Emmanuel <span style={{fontSize: "24px"}}>&#10084;&#65039;</span> Midian
             </NavLink>
 
             {/* Hamburger on Small Screens */}

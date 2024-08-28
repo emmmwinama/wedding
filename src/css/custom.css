@@ -13,19 +13,25 @@
     min-height: 50vh;
 }
 
+.themecolor {
+    background: linear-gradient(to bottom,
+    #f8f9fa 0%, /* Very Light Blue at the top */ #d4efff 50%, /* Light Blue in the middle */ #f8f9fa 100% /* Very Light Blue at the bottom */
+    ) center;
+}
+
 .heroStory {
     background: linear-gradient(135deg, #e0f7fa, #80cbc4, #00796b);
 }
 
 .count-wrapper {
     padding: 6px;
-    margin: 6px;
+    margin: 4px;
     display: flex;
     flex-direction: column;
     background: #c7aa23;
     border-radius: 20px;
     font-weight: 900;
-    min-width: 90px;
+    min-width: 70px;
     color: #f8f9fa;
 }
 

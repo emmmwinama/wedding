@@ -16,13 +16,13 @@ function CoupleIntros() {
                         <span className="text-danger heart" style={{fontSize: '50px'}}>&#10084;&#65039;</span>
                     </div>
                     <div className="row d-flex align-items-center justify-content-center">
-                        <div className="groom-pic col-4 p-0 d-flex justify-content-center align-items-center">
+                        <div className="groom-pic col-6 p-0 d-flex justify-content-center align-items-center">
                             <div className="pic-wrapper">
                                 <img src="/images/couple/1.jpeg" alt="Emmanuel Mwinama"
                                      style={{width: '100%', borderRadius: '100%', border: '5px solid #c7aa23'}}/>
                             </div>
                         </div>
-                        <div className="bride-pic col-4  p-0 d-flex justify-content-center align-items-center">
+                        <div className="bride-pic col-6  p-0 d-flex justify-content-center align-items-center">
                             <div className="pic-wrapper">
                                 <img src="/images/couple/3.jpeg" alt="Midian Mulungu"
                                      style={{width: '100%', borderRadius: '100%', border: '5px solid #c7aa23'}}/>
@@ -31,19 +31,19 @@ function CoupleIntros() {
                     </div>
                 </div>
                 <div className="couple-introsec position-relative">
-                    <div className="position-absolute d-sm-none d-lg-flex"
+                    <div className="position-absolute d-none d-lg-flex"
                          style={{left: "50%", top: "50%", transform: "translate(-50%, -50%)"}}>
                         <span className="text-danger heart" style={{fontSize: '50px'}}>&#10084;&#65039;</span>
                     </div>
                     <div className="row">
                         <div className="col-lg-6 col-sm-12 py-4 px-0">
                             <div className="groom p-2 row">
-                                <div className="groom-text col-lg-8 col-sm-12">
+                                <div className="groom-text col-lg-8 col-12">
                                     <div className="groom-name">
                                         <span className="text-lg-end text-sm-center d-block sacramento-regular"
-                                              style={{fontSize: "35px", fontWeight: 700}}>Emmanuel Mwinama</span>
+                                              style={{fontSize: "30px", fontWeight: 700}}>Emmanuel Mwinama</span>
                                     </div>
-                                    <div className="groom-desc text-lg-end text-sm-center">
+                                    <div className="groom-desc text-lg-end text-center">
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam animi beatae,
                                         doloribus et eveniet ex illo incidunt libero maxime minima officia, recusandae
                                         rerum
@@ -54,7 +54,7 @@ function CoupleIntros() {
                                         repellendus repudiandae saepe unde.
                                     </div>
                                 </div>
-                                <div className="groom-pic col-lg-4 d-sm-none  d-lg-flex p-0 justify-content-center align-items-center">
+                                <div className="groom-pic col-lg-4 d-none d-lg-inline p-0 justify-content-center align-items-center">
                                     <div className="pic-wrapper">
                                         <img src="/images/couple/1.jpeg" alt="Emmanuel Mwinama"
                                              style={{width: '100%', borderRadius: '100%', border: '5px solid #c7aa23'}}/>
@@ -67,9 +67,9 @@ function CoupleIntros() {
                                 <div className="bride-text col-lg-8 col-sm-12">
                                     <div className="bride-name">
                                     <span className="text-lg-start text-sm-center d-block sacramento-regular"
-                                          style={{fontSize: "35px", fontWeight: 700}}>Midian Mulungu</span>
+                                          style={{fontSize: "30px", fontWeight: 700}}>Midian Mulungu</span>
                                     </div>
-                                    <div className="bride-desc text-lg-start text-sm-center">
+                                    <div className="bride-desc text-lg-start text-center">
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam animi beatae,
                                         doloribus et eveniet ex illo incidunt libero maxime minima officia, recusandae
                                         rerum
@@ -80,7 +80,7 @@ function CoupleIntros() {
                                         repellendus repudiandae saepe unde.
                                     </div>
                                 </div>
-                                <div className="bride-pic col-4 d-sm-none d-lg-flex  p-0 justify-content-center align-items-center">
+                                <div className="bride-pic col-4 d-none d-lg-flex  p-0 justify-content-center align-items-center">
                                     <div className="pic-wrapper">
                                         <img src="/images/couple/3.jpeg" alt="Midian Mulungu"
                                              style={{width: '100%', borderRadius: '100%', border: '5px solid #c7aa23'}}/>

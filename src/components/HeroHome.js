@@ -26,10 +26,10 @@ function HeroHome() {
 
     return (
         <div className="heroHome">
-            <div className="container">
+            <div className="container py-5">
                 <div className="row d-flex align-items-center" style={{minHeight: '50vh'}}>
                     <div
-                        className="col-md-12 col-sm-12 col-lg-6 d-flex align-items-center justify-content-lg-start justify-content-sm-center">
+                        className="col-md-12 col-sm-12 col-lg-6 d-flex align-items-center justify-content-center justify-content-lg-start">
                         <div className="text-center">
                             <h1>We're getting married!</h1>
                             <p>Count down with us to our special date.</p>
@@ -75,12 +75,12 @@ function HeroHome() {
                                     <img src="/images/Cropped/3.jpeg" alt="Us" className="p-1"/>
                                 </div>
                             </div>
-                            <div className="col-md-6 col-sm-6 px-0 m-0">
+                            <div className="col-md-6 col-sm-6 px-0 m-0 d-none d-lg-inline">
                                 <div className="aspect-ratio">
                                     <img src="/images/Cropped/4.jpeg" alt="Us" className="p-1"/>
                                 </div>
                             </div>
-                            <div className="col-md-6 col-sm-6 px-0 m-0">
+                            <div className="col-md-6 col-sm-6 px-0 m-0 d-none d-lg-inline">
                                 <div className="aspect-ratio">
                                     <img src="/images/Cropped/5.jpeg" alt="Us" className="p-1"/>
                                 </div>
