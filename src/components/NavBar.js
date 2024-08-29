@@ -26,9 +26,6 @@ function NavBar ()  {
                     <li className="nav-item">
                         <NavLink exact className="nav-link" to="/story">Our Love Journey</NavLink>
                     </li>
-                    <li className="nav-item">
-                        <NavLink exact className="nav-link" to="/shower">Bridal Shower</NavLink>
-                    </li>
                 </ul>
 
                 {/* Centered Nav Brand on Large Screens */}
@@ -39,13 +36,10 @@ function NavBar ()  {
 
                 <ul className="navbar-nav text-uppercase">
                     <li className="nav-item">
-                        <NavLink className="nav-link" to="/gallery">Gallery</NavLink>
+                        <NavLink exact className="nav-link" to="/shower">Bridal Shower</NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink className="nav-link" to="/messages">Messages</NavLink>
-                    </li>
-                    <li className="nav-item">
-                        <NavLink className="nav-link" to="/program">Wedding Program</NavLink>
+                        <NavLink className="nav-link" to="/gallery">Wedding Gallery</NavLink>
                     </li>
                 </ul>
             </div>

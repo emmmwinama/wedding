@@ -12,11 +12,10 @@ function HeroHome() {
                         </div>
                     </div>
                     <div className="" style={{flex: 1}} >
-                        <div className="sacramento-regular text-light text-center"
-                             style={{fontSize: '35px', fontWeight: 700, flex: 1}}>Our Love Memory Lane
+                        <div className="sacramento-regular text-center"
+                             style={{fontSize: '50px', flex: 1, color: "crimson"}}>Our Love Memory Lane
                         </div>
-                        <p className="text-center text-light" style={{ fontWeight: 400}}>Below are some of the pictures have take with/of each other through out the time we have been
-                            together </p>
+                        <p className="text-center text-light" style={{ fontWeight: 400}}>Every picture tells a story, and these are the stories we've woven together over time. </p>
                     </div>
                 </div>
             </div>

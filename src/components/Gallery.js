@@ -1,7 +1,0 @@
-function Gallery(props) {
-    return (
-        <div className="gallery">Gallery</div>
-    )
-}
-
-export default Gallery;

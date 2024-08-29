@@ -8,20 +8,40 @@
 .heroHome {
     background-size: cover;
     background: linear-gradient(to bottom,
-    #f8f9fa 0%, /* Very Light Blue at the top */ #e6f7ff 50%, /* Light Blue in the middle */ #f8f9fa 100% /* Very Light Blue at the bottom */
+    #f8f9fa 0%, /* Very Light Blue at the top */ #ffb7c4 50%, /* Light Blue in the middle */ #f8f9fa 100% /* Very Light Blue at the bottom */
+    ) center;
+    min-height: 50vh;
+}
+
+.heroBridal {
+    background-size: cover;
+    background: linear-gradient(to bottom,
+    #f8f9fa 0%, /* Very Light Blue at the top */ #ffb7c4 50%, /* Light Blue in the middle */ #f8f9fa 100% /* Very Light Blue at the bottom */
+    ) center;
+    min-height: 50vh;
+}
+
+.heroWedding {
+    background-size: cover;
+    background: linear-gradient(to bottom,
+    #f8f9fa 0%, /* Very Light Blue at the top */ rgb(255, 204, 204) 50%, /* Light Blue in the middle */ #f8f9fa 100% /* Very Light Blue at the bottom */
     ) center;
     min-height: 50vh;
 }
 
 .themecolor {
     background-size: cover;
-    background: linear-gradient(to bottom,
-    #f8f9fa 0%, /* Very Light Blue at the top */ #d4efff 50%, /* Light Blue in the middle */ #f8f9fa 100% /* Very Light Blue at the bottom */
+    background: linear-gradient(to right,
+    #f8f9fa 0%, /* Very Light Blue at the top */ rgba(255, 183, 196, 0.35) 50%, /* Light Blue in the middle */ #f8f9fa 100% /* Very Light Blue at the bottom */
     ) center;
 }
 
 .heroStory {
-    background: linear-gradient(135deg, #e0f7fa, #80cbc4, #00796b);
+    /*background: linear-gradient(135deg, #e0f7fa, #80cbc4, #00796b);*/
+    background-size: cover;
+    background: linear-gradient(to left,
+    rgb(255, 204, 204) 0%, /* Very Light Blue at the top */ rgb(255, 204, 204) 50%, /* Light Blue in the middle */ #f8f9fa 100% /* Very Light Blue at the bottom */
+    ) center;
 }
 
 .count-wrapper {
@@ -30,6 +50,18 @@
     display: flex;
     flex-direction: column;
     background: #c7aa23;
+    border-radius: 20px;
+    font-weight: 900;
+    min-width: 70px;
+    color: #f8f9fa;
+}
+
+.heroBridal .count-wrapper {
+    padding: 7px;
+    margin: 4px;
+    display: flex;
+    flex-direction: column;
+    background: #fb612b;
     border-radius: 20px;
     font-weight: 900;
     min-width: 70px;
@@ -83,7 +115,7 @@
 .aspect-ratio {
     position: relative;
     width: 100%;
-    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+    padding-top: 53%; /* 16:9 Aspect Ratio */
 }
 
 .aspect-ratio img {
@@ -123,7 +155,7 @@ section.locations {
 }
 
 .colors-wrapper > div{
-    border: 10px solid #80DEEAFF;
+    border: 5px solid crimson;
     border-radius: 20px;
     overflow: hidden;
 }
@@ -140,4 +172,105 @@ section.locations {
     .navbar-brand {
         text-align: left;
     }
+}
+
+
+/* General Pagination Styles */
+.pagination {
+    justify-content: center;
+    padding: 20px 0;
+    flex-wrap: wrap; /* Allow pagination items to wrap */
+}
+
+.page-item {
+    margin: 0 2px; /* Reduce margin for smaller screens */
+}
+
+.page-link {
+    border-radius: 5px; /* Rounded corners */
+    background: #dc143c; /* Crimson background */
+    color: #fff; /* White text */
+    border: 1px solid #dc143c; /* Crimson border */
+    font-weight: bold;
+    text-align: center;
+    padding: 8px 12px; /* Adjust padding */
+    transition: background 0.3s, color 0.3s, border 0.3s;
+}
+
+.page-link:hover {
+    background: #c8102e; /* Darker crimson on hover */
+    color: #fff; /* White text on hover */
+    border-color: #c8102e; /* Darker crimson border on hover */
+}
+
+.page-item.active .page-link {
+    background: #c8102e; /* Darker crimson background for active page */
+    color: #fff; /* White text for active page */
+    border-color: #c8102e; /* Darker crimson border for active page */
+}
+
+.page-item.disabled .page-link {
+    background: #f0f0f0; /* Light gray background for disabled state */
+    color: #a0a0a0; /* Gray text color */
+    border-color: #f0f0f0; /* Gray border */
+    cursor: not-allowed;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+    .pagination {
+        font-size: 0.9rem; /* Adjust font size for smaller screens */
+    }
+
+    .page-link {
+        padding: 6px 10px; /* Adjust padding for smaller screens */
+    }
+
+    .page-item {
+        margin: 0 1px; /* Adjust margin for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .pagination {
+        font-size: 0.8rem; /* Further adjust font size for very small screens */
+    }
+
+    .page-link {
+        padding: 4px 8px; /* Further adjust padding for very small screens */
+    }
+}
+/* Aspect Ratio Container */
+.aspect-ration {
+    width: 100%; /* Full width of the parent */
+    padding-top: 100.25%; /* 16:9 Aspect Ratio (height/width*100) */
+    position: relative; /* For absolute positioning of the image */
+    overflow: hidden; /* Hide overflowed content */
+}
+
+/* Image Styling */
+.object-fit-cover {
+    object-fit: cover; /* Cover the container and keep aspect ratio */
+    object-position: top;
+
+} /* Align image to the */
+
+
+/* Custom styles for the filter buttons */
+.btn-group .btn-custom {
+    border-color: crimson;
+    color: crimson;
+}
+
+.btn-group .btn-custom:hover,
+.btn-group .btn-custom:focus {
+    background-color: crimson;
+    color: white;
+    border-color: crimson;
+}
+
+.btn-group .btn-custom.active {
+    background-color: crimson;
+    color: white;
+    border-color: crimson;
 }

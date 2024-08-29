@@ -31,7 +31,7 @@ function HeroHome() {
                     <div
                         className="col-md-12 col-sm-12 col-lg-6 d-flex align-items-center justify-content-center justify-content-lg-start">
                         <div className="text-center">
-                            <h1>We're getting married!</h1>
+                            <h1 className="sacramento-regular" style={{color: "crimson", fontSize: '50px'}}>We're getting married!</h1>
                             <p>Count down with us to our special date.</p>
                             <div className="countdown d-flex justify-content-center">
                                 <div className="days count-wrapper">

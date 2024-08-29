@@ -9,7 +9,7 @@ function Theme(props) {
                         <div className="col-md-6 col-sm-12 py-3 d-flex">
                             <div className="text-center d-flex align-items-center justify-content-center align-items-center" style={{flex: 1}}>
                                 <h2 className="sacramento-regular p-0 pb-3"
-                                    style={{fontSize: "70px", color: "#ffd700", fontWeight: "bold"}}>Wedding Colors</h2>
+                                    style={{fontSize: "70px", color: "#db2e44"}}>Wedding Colors</h2>
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-12 py-3 p-0 d-flex">
@@ -17,21 +17,18 @@ function Theme(props) {
                                  style={{flex: 1}}>
                                 <div className="text-center position-relative m-2">
                                     <div className="colors text-uppercase text-light"
-                                         style={{background: '#ffaaaa', fontWeight: 700, fontSize: '30px', padding: '1rem'}}>B
+                                         style={{background: '#ffaaaa', fontWeight: 700, fontSize: '20px', padding: '1rem'}}>B
                                     </div>
-                                    <div className="mt-3 position-absolute text-uppercase text-light" style={{ bottom: '10px', left: '20px', fontWeight: 700 }}>Blush Pink</div>
                                 </div>
                                 <div className="text-center position-relative m-2">
                                     <div className="colors text-uppercase text-light"
-                                         style={{background: '#ffd700', fontWeight: 700, fontSize: '30px', padding: '1rem'}}>G
+                                         style={{background: '#ffd700', fontWeight: 700, fontSize: '20px', padding: '1rem'}}>G
                                     </div>
-                                    <div className="mt-3 position-absolute text-uppercase text-light" style={{ bottom: '10px', left: '20px', fontWeight: 700 }}>Gold</div>
                                 </div>
                                 <div className="text-center position-relative m-2">
                                     <div className="colors text-uppercase"
-                                         style={{background: '#ffffff', fontWeight: 700, fontSize: '30px', padding: '1rem', color: '#ffd700'}}>W
+                                         style={{background: '#ffffff', fontWeight: 700, fontSize: '20px', padding: '1rem', color: '#ffd700'}}>W
                                     </div>
-                                    <div className="mt-3 position-absolute text-uppercase" style={{ bottom: '10px', left: '20px', fontWeight: 700, color: '#ffd700' }}>White</div>
                                 </div>
                             </div>
                         </div>

@@ -1,6 +1,16 @@
+import HeroBridal from "./HeroBridal";
+import ShowerGallery from "./ShowerGallery";
+import {Helmet} from "react-helmet-async";
+
 function Shower(props) {
     return (
-        <div className="shower">Shower</div>
+        <section>
+            <Helmet>
+                <title>Bridal Shower</title>
+            </Helmet>
+            <HeroBridal />
+            <ShowerGallery />
+        </section>
     )
 }
 

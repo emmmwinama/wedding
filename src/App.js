@@ -1,9 +1,11 @@
 import React from 'react';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import Home from './components/Home';
 import Program from './components/Program';
-import Gallery from './components/Gallery';
+import WeddingGallery from './components/WeddingGallery';
 import Messages from './components/Messages';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min';
@@ -20,7 +22,7 @@ function App() {
               <Routes>
                   <Route path="/" element={<Home/>}/>
                   <Route path="/program" element={<Program/>}/>
-                  <Route path="/gallery" element={<Gallery/>}/>
+                  <Route path="/gallery" element={<WeddingGallery/>}/>
                   <Route path="/messages" element={<Messages/>}/>
                   <Route path="/shower" element={<Shower/>}/>
                   <Route path="/story" element={<Story/>}/>
